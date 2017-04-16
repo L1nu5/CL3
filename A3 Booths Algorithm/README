@@ -1,0 +1,7 @@
+A Web Tool for Booth's multiplication algorithm is used to multiply two numbers located in
+distributed environment.
+Use software design client-server architecture and principles for dynamic programming.
+Give the design with use case, class, sequence and deployment diagrams.
+Implement the design using HTML5/Scala/Python/Java/C++/ Rubi on Rails..
+Perform 1) Risk Analysis. 2) Positive and Negative testing.
+Use latest open source software modeling and testing tool such as Modelio, Junit, Selenium.

@@ -1,0 +1,9 @@
+1491415195170	geckodriver	INFO	Listening on 127.0.0.1:49418
+1491415196237	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.DC4pFOAUpvao
+1491415196238	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1491415196239	geckodriver::marionette	INFO	Connecting to Marionette on localhost:33151
+1491415196996	Marionette	INFO	Listening on port 33151
+
+(firefox:4707): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:4707): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed

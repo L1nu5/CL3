@@ -1,0 +1,11 @@
+Install following any one Cloud Simulators/Tools : CloudSim, CloudAnalyst,
+GreenCloud/Docker, iCanCloud/IBM Smart Cloud, GDCSim/SPECI, MDCSim/
+NetworkCloudSim.
+Assignment : Simulate the following.
+i)  Create a datacenter with one host and run one cloudlet on it using CloudSim.
+ii) Create and Configure the data center and user base to show response time,
+    request servicing time and data center loading
+iii)Install the client to launch the application running in the container using docker
+    images.
+
+Give the design with deployment diagram.

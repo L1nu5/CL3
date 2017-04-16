@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.acer5742g.calculator.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Numbers"
+        android:id="@+id/textView" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/num1"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/num2"
+        android:layout_below="@+id/num1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Result"
+        android:id="@+id/res"
+        android:layout_below="@+id/num2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="63dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD"
+        android:id="@+id/add"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/mul"
+        android:layout_alignStart="@+id/mul" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUB"
+        android:id="@+id/sub"
+        android:layout_above="@+id/mul"
+        android:layout_alignRight="@+id/num2"
+        android:layout_alignEnd="@+id/num2" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MUL"
+        android:id="@+id/mul"
+        android:layout_below="@+id/add"
+        android:layout_alignLeft="@+id/sin"
+        android:layout_alignStart="@+id/sin" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DIV"
+        android:id="@+id/div"
+        android:layout_below="@+id/sub"
+        android:layout_alignRight="@+id/sub"
+        android:layout_alignEnd="@+id/sub" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SIN"
+        android:id="@+id/sin"
+        android:layout_below="@+id/mul"
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignEnd="@+id/textView" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="COS"
+        android:id="@+id/cos"
+        android:layout_above="@+id/tan"
+        android:layout_alignLeft="@+id/div"
+        android:layout_alignStart="@+id/div" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TAN"
+        android:id="@+id/tan"
+        android:layout_below="@+id/sin"
+        android:layout_alignLeft="@+id/sin"
+        android:layout_alignStart="@+id/sin" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SQRT"
+        android:id="@+id/sqrt"
+        android:layout_below="@+id/cos"
+        android:layout_alignLeft="@+id/cos"
+        android:layout_alignStart="@+id/cos" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SAVE"
+        android:id="@+id/save"
+        android:layout_alignBottom="@+id/res"
+        android:layout_toRightOf="@+id/sqrt"
+        android:layout_toEndOf="@+id/sqrt" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RECALL"
+        android:id="@+id/recall"
+        android:layout_below="@+id/save"
+        android:layout_alignLeft="@+id/save"
+        android:layout_alignStart="@+id/save" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CLEAR"
+        android:id="@+id/clear"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/recall"
+        android:layout_alignEnd="@+id/recall"
+        android:layout_toRightOf="@+id/sqrt"
+        android:layout_toEndOf="@+id/sqrt" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="READ FILE"
+        android:id="@+id/fileread"
+        android:layout_above="@+id/clear"
+        android:layout_alignRight="@+id/clear"
+        android:layout_alignEnd="@+id/clear"
+        android:layout_alignLeft="@+id/clear"
+        android:layout_alignStart="@+id/clear" />
+
+</RelativeLayout>

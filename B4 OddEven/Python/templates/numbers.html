@@ -1,0 +1,10 @@
+<html>
+
+<h1> Enter numbers </h1>
+<form action='/sort/' method="POST">
+{% for i in range(0,count) %}
+Enter number {{ i+1 }} : <input type="text" name="num"><br>
+{% endfor %}
+<input type="submit" value="Sort data">
+</form>
+</html>

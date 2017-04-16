@@ -1,0 +1,16 @@
+
+
+Mongo database
+
+
+$./mongo 192.168.4.254/datadb -u username -p
+
+use test
+db.test.insert({"text":"I am cys. adbvadv. aavava. advadbadb."})
+db.test.insert({"text":"I am cys. adbvadav. aasdava. badb."})
+db.test.insert({"text":"I am cys. aadv. aaa. vadbadb."})
+db.test.insert({"text":"I am cys. bvadv. aava. advadb."})
+
+
+
+

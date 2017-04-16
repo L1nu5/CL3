@@ -1,0 +1,4 @@
+8-Queens Matrix is Stored using JSON/XML having first Queen placed. Use back-tracking
+to place remaining Queens to generate final 8-queen's Matrix.
+Use suitable Software modeling, Design and testing methods. Justify the selection over
+other methods.
