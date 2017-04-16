@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Plagiarism Checker</title>
+
 </head>
 <body>
-<h2>Plagiarism Report (Plagiarised Text): </h2>
+
+<p>
+	Plagiarised Text: 
+</p>
 {{text}}
+
+{{text1}}
 </body>
 </html>
